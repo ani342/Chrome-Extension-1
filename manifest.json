@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Skip-Ad",
+    "version": "1.0",
+    "description": "Automatically press the 'skip-ad' button on youtube videos once the timer is over",
+    "content_scripts": [
+        {
+            "js": ["scripts/script.js"],
+            "matches": [
+                "https://www.youtube.com/*"
+            ]
+        }
+    ]
+}
